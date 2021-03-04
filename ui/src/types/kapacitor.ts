@@ -276,7 +276,6 @@ export interface KeyMappings {
   smtp: string
   victorops: string
   servicenow: string
-  bigpanda: string
 }
 
 export interface FieldsFromConfigAlerts {

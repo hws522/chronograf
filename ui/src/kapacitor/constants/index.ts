@@ -214,7 +214,9 @@ export const MAP_KEYS_FROM_CONFIG: KeyMappings = {
   smtp: 'email',
   victorops: 'victorOps',
   servicenow: 'serviceNow',
-  bigpanda: 'bigPanda',
+  // bigPanda is disabled until a kapacitor dependency is upgraded (1.5.9?) to contain
+  // https://github.com/influxdata/kapacitor/pull/2491
+  // bigpanda: 'bigPanda',
 }
 
 // ALERTS_FROM_CONFIG the array of fields to accept from Kapacitor Config
