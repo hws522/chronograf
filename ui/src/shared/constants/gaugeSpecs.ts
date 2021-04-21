@@ -11,7 +11,7 @@ export const GAUGE_SPECS = {
   tickSizeLarge: 18,
   minFontSize: 22,
   minLineWidth: 24,
-  valueColor: '#ffffff',
+  valueColor: '#292933',
   needleColor0: '#434453',
   needleColor1: '#ffffff',
 }
