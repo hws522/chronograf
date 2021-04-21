@@ -1,3 +1,4 @@
+import { withRouter } from 'react-router'
 import {
   DEFAULT_VERTICAL_TIME_AXIS,
   DEFAULT_FIX_FIRST_COLUMN,
@@ -154,5 +155,5 @@ export const DYNAMIC_SOURCE_ITEM: SourceItemValue = {
   importedSourceID: '',
 }
 
-export const DEFAULT_CELL_BG_COLOR = '#292933'
+export const DEFAULT_CELL_BG_COLOR = '#ffffff'
 export const DEFAULT_CELL_TEXT_COLOR = '#FFFFFF'

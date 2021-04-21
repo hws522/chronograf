@@ -16,7 +16,7 @@
   position: relative;
   height: calc(100% - #{$chronograf-page-header-height}) !important;
   flex: 1 0 0;
-  @include gradient-v($g2-kevlar,$g0-obsidian);
+  @include gradient-v($g17-whisper,$g15-platinum);
 
   &:only-child {
     height: 100% !important;
